@@ -1,2 +1,3 @@
-# homebrew-tap
-Leanpub Homebrew Installer Stuff
+# Leanpub Homebrew tap
+
+brew install leanpub/tap/leanpub
