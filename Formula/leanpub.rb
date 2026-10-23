@@ -2,27 +2,27 @@
 class Leanpub < Formula
   desc "Work with your Leanpub books from the command line"
   homepage "https://leanpub.com/help/cli"
-  version "0.1.0"
+  version "0.1.1"
 
   on_macos do
     on_arm do
-      url "https://leanpub.com/downloads/cli/v0.1.0/leanpub-aarch64-apple-darwin.tar.gz"
-      sha256 "d4b5061c61580d257387b0f23581f37b8dd1524188dc8bdb4d5abe252535e305"
+      url "https://leanpub.com/downloads/cli/v0.1.1/leanpub-aarch64-apple-darwin.tar.gz"
+      sha256 "02f85a08d069152cd22b6970983a2a81d45c2f4081935bf2ca3457f274d7469e"
     end
     on_intel do
-      url "https://leanpub.com/downloads/cli/v0.1.0/leanpub-x86_64-apple-darwin.tar.gz"
-      sha256 "a1bb9eb47bf189cc89887143f77042b266e38534b46b7d50b46f7b5fc3016600"
+      url "https://leanpub.com/downloads/cli/v0.1.1/leanpub-x86_64-apple-darwin.tar.gz"
+      sha256 "9b2e4a4e92f71d38fa1ac8890fd3542c8dd8ad93639b3886cfe106e652f73c00"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://leanpub.com/downloads/cli/v0.1.0/leanpub-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "eb28d8dd546f4194e397cfca7c6ba083a5a3d376a91fdfacd1ee400fc282d90d"
+      url "https://leanpub.com/downloads/cli/v0.1.1/leanpub-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "6d66e3fd2170b34d759bb75e3aa7708d20310475f404a1e586565159beb2844e"
     end
     on_intel do
-      url "https://leanpub.com/downloads/cli/v0.1.0/leanpub-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "f4c3e866b87671b2b6fe2ffc7658190a163fdbe4bd6acd5ef25fc355c70c1582"
+      url "https://leanpub.com/downloads/cli/v0.1.1/leanpub-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "4c0f80e893d885030eeac9997d0ebc5f0c0071a1f830182e16b1f9c94e70dc25"
     end
   end
 
